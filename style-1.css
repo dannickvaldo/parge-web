@@ -2,15 +2,101 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-     padding: 0px 150px 0px 100px;
-}
+     padding: 0px 150px 0px 100px;}
 .droit-1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 20px;
-}
+    gap: 20px;}
 .links{
     font-weight:bold;
-    font-size: small;
-}
+    font-size: small;}
+/* --------------------------------------------------------------------------header------------------------------------------------------------------------------ */
+
+.section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    /* height: auto;  */
+      padding: 20px  100px 20px 70px; }
+.sect-2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;}
+.sect-1{
+    background-image: url(images/left-banner-image.jpg);}
+.secte-1{
+    background-image: url(images/baner-right-image-01.jpg);}
+.secte-2{
+    background-image: url(images/baner-right-image-02.jpg);}
+.secte-3{
+    background-image: url(images/baner-right-image-03.jpg);}
+.secte-4{ 
+    background-image: url(images/baner-right-image-04.jpg);}
+
+ .text{
+    color:aliceblue;
+    font-size: 40px}
+ .tt{
+    color:aliceblue;
+    margin: 120px;}
+ .ttt{
+    color:aliceblue;
+    margin: 225px;}
+.centre{
+    background: none;}
+#centre{
+    padding: 100px 20px 100px 20px;
+color:aliceblue}
+
+/* ------------------------------------------------------------------------section-1_terminer------------------------------------------------------------------- */
+
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+.photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1150px;
+    height: 390px;}
+.gauche{
+    display: flex;
+    align-items: center;}
+.droit{
+    display: flex;
+    align-items: center;}
+.h20{
+    padding: 0px 0px 0px 344px ;}
+.droite{
+    transform: translate(420%, 0%);
+    border: 1px solid rgb(223, 215, 215);}
+.gauch{
+    border: 1px solid rgb(223, 215, 215);
+    transform: translate(-420%, 0%);} 
+.gras{
+    font-size: 130%;}
+/* ------------d---------------------------------------------------------------section-2_terminer------------------------------------------------------------------ */
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+
+/* -------------------------------------------------------------------------section-3_terminer------------------------------------------------------------------ */
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+
+/* -------------------------------------------------------------------------section-4_terminer------------------------------------------------------------------ */
+
+
+
+

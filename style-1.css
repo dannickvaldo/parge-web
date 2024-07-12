@@ -17,8 +17,7 @@ header{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    /* height: auto;  */
-      padding: 20px  100px 20px 70px; }
+     padding: 20px  100px 20px 70px; }
 .sect-2{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -97,6 +96,94 @@ color:aliceblue}
 
 /* -------------------------------------------------------------------------section-4_terminer------------------------------------------------------------------ */
 
+.section-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 20px  100px 20px 70px; }
+.sect-5{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   width: 546px;
+   height: auto; 
+   transform: translate(7%, 0%);}
+.toph{
+    background-image: url(images/pp.jpg);}
+.tophe{
+    background-image: url(images/p.jpg);}
+.toph-1{
+    background-color: #F8F8F8;}
+.texte{
+    width: 546px;
+    height: auto; 
+    transform: translate(50%, 0%);}
+.bleu{
+    color: #000eff;}
+#bouton{
+    background: none;
+    padding: 30px  30px 30px 30px; }
+#grass{
+    transform: translate(20%, 130%);}
+#bout{
+    padding: 30px  30px 30px 30px; }
+/* -------------------------------------------------------------------------------section-5_terminer-------------------------------------------------------------- */
+.section-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 63%;
+    height: auto;
+    margin: auto;}
 
+/* ---------------------------------------------------------------------------------section-6_terminer---------------------------------------------------------- */
 
+.section-7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    height: auto;
+    padding: 100px 0px 100px 0px;
+    margin: auto;
+    gap:50px;}
 
+ .secte-7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0px;
+    transform: translate(14%, 0%);}
+.info{
+    display: flex;
+    justify-content: space-between;}
+.infos{
+    border: 1px solid wheat;
+    padding: 0px 150px 0px 20px;}
+.titre{
+    font-size:20px;
+    font-weight: bold;}
+/* -----------------------------------------------------------------------------------section-7_terminer--------------------------------------------------------- */
+footer{
+    background-color:rgb(7, 3, 3);
+    margin: 10px;
+}
+.haut{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:20px;
+    padding: 20px 50px 20px 250px;
+}
+#white{
+    color:white;
+}
+.lign{
+    text-decoration:overline;
+}
+#dd{
+    color:#F8F8F8}
+.icorne{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    transform: translate(48%, 0%);
+    gap:10px;}
+
+/* ----------------------------------------------------------------------------------section-7_terminer------------------------------------------------------ */

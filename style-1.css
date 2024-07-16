@@ -8,9 +8,12 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 20px;}
-.links{
+.links:hover{
     font-weight:bold;
-    font-size: small;}
+    font-size: small;
+    color:#aeb9ae
+}
+
 /* --------------------------------------------------------------------------header------------------------------------------------------------------------------ */
 
 .section-1{

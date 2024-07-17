@@ -11,8 +11,7 @@ header{
 .links:hover{
     font-weight:bold;
     font-size: small;
-    color:#252725
-}
+    color:#252725;}
 /* --------------------------------------------------------------------------header------------------------------------------------------------------------------ */
 
 .section-1{
@@ -189,3 +188,24 @@ footer{
     gap:10px;}
 
 /* ----------------------------------------------------------------------------------section-7_terminer------------------------------------------------------ */
+#lot{
+    font-size: 500%;
+    text-decoration: underline;  
+}
+#head{
+    background-color: #252725;
+    width: 50px;
+    left: 30px;
+}
+form{
+    border: 1px solid #000eff;
+    width: 500px;
+    left: auto;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(12, 119, 119);
+    border-radius: 10%;
+}
+#person{
+    display: flex;
+    justify-content: space-around;
+}

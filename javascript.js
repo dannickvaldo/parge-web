@@ -11,6 +11,38 @@ btn.addEventListener("click", function(e) {
     const contact = document.getElementById("contact").value;
     const mail = document.getElementById("mail").value;
 
+    // Basic validation
+    if (nom.trim() === "" || contact.trim() === "" || mail.trim() === "") {
+        alert("remplissez tout les champs");
+        return;
+    }
+
+    if(nom.length >= 26){
+        alert("remplissez le champs avec moin de caracter");
+        return 0;
+        
+    }
+
+
+    if (!/^[0-9]+$/.test(contact)) {
+        alert("remplisez correctement le numero");
+        return;
+    }
+
+    if (contact.length >= 9) {
+
+        alert("le nombre de chiffre est depasser")
+        return;
+    }
+
+
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
+        alert("address email invalide");
+        return;
+    }
+
+
+
     // j'ajoute une table
     tabl.push({ nom, contact, mail });
 

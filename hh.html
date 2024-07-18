@@ -55,3 +55,58 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Basic validation
+if (nom.trim() === "" || contact.trim() === "" || mail.trim() === "") {
+    alert("remplissez tout les champs");
+    return;
+}
+
+if(nom.length >= 26){
+    alert("remplissez le champs avec moin de caracter");
+    return document.getElementById("nom").value="";
+}
+
+if (!/^[0-9]+$/.test(contact)) {
+    alert("remplisez correctement le numero");
+    return;
+}
+
+// Limit to 9 digits directly in the input field:
+if (contact.length > 9) { 
+    alert("le nombre max de chiffre est neuf");
+    return; // Stop execution if more than 9 digits
+}
+
+if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(mail)) {
+    alert("address email invalide");
+    return;
+}

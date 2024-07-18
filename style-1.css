@@ -1,0 +1,220 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     padding: 0px 150px 0px 100px;}
+.droit-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;}
+.links:hover{
+    font-weight:bold;
+    font-size: small;
+    color:#252725;}
+/* --------------------------------------------------------------------------header------------------------------------------------------------------------------ */
+
+.section-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+     padding: 20px  100px 20px 70px; }
+.sect-2{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;}
+.sect-1{
+    background-image: url(images/left-banner-image.jpg);}
+.secte-1{
+    background-image: url(images/baner-right-image-01.jpg);}
+.secte-2{
+    background-image: url(images/baner-right-image-02.jpg);}
+.secte-3{
+    background-image: url(images/baner-right-image-03.jpg);}
+.secte-4{ 
+    background-image: url(images/baner-right-image-04.jpg);}
+
+ .text{
+    color:aliceblue;
+    font-size: 40px}
+ .tt{
+    color:aliceblue;
+    margin: 120px;}
+ .ttt{
+    color:aliceblue;
+    margin: 225px;}
+.centre{
+    background: none;}
+#centre{
+    padding: 100px 20px 100px 20px;
+color:aliceblue}
+
+/* ------------------------------------------------------------------------section-1_terminer------------------------------------------------------------------- */
+
+
+.section-2{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+.photo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 1150px;
+    height: 390px;}
+.gauche{
+    display: flex;
+    align-items: center;}
+.droit{
+    display: flex;
+    align-items: center;}
+.h20{
+    padding: 0px 0px 0px 344px ;}
+.droite{
+    transform: translate(420%, 0%);
+    border: 1px solid rgb(223, 215, 215);}
+.gauch{
+    border: 1px solid rgb(223, 215, 215);
+    transform: translate(-420%, 0%);} 
+.gras{
+    font-size: 130%;}
+/* ------------d---------------------------------------------------------------section-2_terminer------------------------------------------------------------------ */
+
+.section-3{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+
+/* -------------------------------------------------------------------------section-3_terminer------------------------------------------------------------------ */
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 50px 50px 100px 50px; }
+
+/* -------------------------------------------------------------------------section-4_terminer------------------------------------------------------------------ */
+
+.section-5{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+    padding: 20px  100px 20px 70px; }
+.sect-5{
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px;
+   width: 546px;
+   height: auto; 
+   transform: translate(7%, 0%);}
+.toph{
+    background-image: url(images/pp.jpg);}
+.tophe{
+    background-image: url(images/p.jpg);}
+.toph-1{
+    background-color: #F8F8F8;}
+.texte{
+    width: 546px;
+    height: auto; 
+    transform: translate(50%, 0%);}
+.bleu{
+    color: #000eff;}
+#bouton{
+    background: none;
+    padding: 30px  30px 30px 30px; }
+#grass{
+    transform: translate(20%, 130%);}
+#bout{
+    padding: 30px  30px 30px 30px; }
+/* -------------------------------------------------------------------------------section-5_terminer-------------------------------------------------------------- */
+.section-6{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 63%;
+    height: auto;
+    margin: auto;}
+
+/* ---------------------------------------------------------------------------------section-6_terminer---------------------------------------------------------- */
+
+.section-7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 60%;
+    height: auto;
+    padding: 100px 0px 100px 0px;
+    margin: auto;
+    gap:50px;}
+
+ .secte-7{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:0px;
+    transform: translate(14%, 0%);}
+.info{
+    display: flex;
+    justify-content: space-between;}
+.infos{
+    border: 1px solid wheat;
+    padding: 0px 150px 0px 20px;}
+.titre{
+    font-size:20px;
+    font-weight: bold;}
+/* -----------------------------------------------------------------------------------section-7_terminer--------------------------------------------------------- */
+footer{
+    background-color:rgb(7, 3, 3);
+    margin: 10px;
+}
+.haut{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    gap:20px;
+    padding: 20px 50px 20px 250px;
+}
+#white{
+    color:white;
+}
+.lign{
+    text-decoration:overline;
+}
+#dd{
+    color:#F8F8F8}
+.icorne{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    transform: translate(48%, 0%);
+    gap:10px;}
+
+/* ----------------------------------------------------------------------------------section-7_terminer------------------------------------------------------ */
+#lot{
+    font-size: 500%;
+    text-decoration: underline;  
+}
+#head{
+    background-color: #252725;
+    width: 50px;
+    left: 30px;
+}
+form{
+    border: 1px solid #000eff;
+    width: 500px;
+    left: auto;
+    padding: 20px 20px 20px 20px;
+    background-color:rgb(12, 119, 119);
+    border-radius: 10%;
+}
+/* ------------------------------------------------------------------------------------exoloire------------------------------------------------------------------------- */
+#person{
+    display: flex;
+    justify-content: space-around;
+}
+
+table, th, td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+#ddf{
+    background-color:bisque;
+}

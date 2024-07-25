@@ -55,3 +55,68 @@
 
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//  Construire le chemin du fichier à servir
+let filePath = path.join(__dirname, '', req.url === '/' ? 'exploire.html' : req.url);
+const extname = path.extname(filePath);
+const contentType = mimeTypes[extname] || 'application/octet-stream';
+
+// Lire et servir le fichier
+fs.readFile(filePath, (err, content) => {
+   if (err) {
+       if (err.code === 'ENOENT') {
+           res.writeHead(404, { 'Content-Type': 'text/html' });
+           res.writeHead(404, { 'Content-Type': 'application/javascript' });
+           res.end('<h1>404 Not Found</h1>', 'utf-8');}
+        else {
+           res.writeHead(500);
+           res.end(`Server Error: ${err.code}`, 'utf-8');
+       }
+       console.log(filePath);
+   } else {
+       res.writeHead(200, { 'Content-Type': contentType });
+       res.end(content, 'utf-8');
+   }
+});

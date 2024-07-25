@@ -206,15 +206,3 @@ form{
     border-radius: 10%;
 }
 /* ------------------------------------------------------------------------------------exoloire------------------------------------------------------------------------- */
-#person{
-    display: flex;
-    justify-content: space-around;
-}
-
-table, th, td{
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-#ddf{
-    background-color:bisque;
-}
